@@ -31,3 +31,12 @@ body {
     text-wrap: balance;
   }
 }
+
+.modal {
+  display: none;
+}
+
+.modal.is-open {
+  display: block;
+}
+    
