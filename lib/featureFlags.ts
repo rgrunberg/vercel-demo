@@ -5,6 +5,6 @@ export const evaluate = (flagName: string) => {
   if (validExperimentNames.indexOf(flagName) == -1) {
     throw new Error("Experiment name not found");
   }
-  const array = [true, false];
+  const array = ["#e5e7eb", "#bfdbfe"];
   return array[Math.floor(Math.random() * array.length)];
 };
