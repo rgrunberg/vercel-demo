@@ -1,4 +1,4 @@
-export const evaluate = (flagName: string) => {
+export const evaluate = (flagName: string, id: string) => {
   // If this were a real app, we'd fetch this data from a remote service
   // Instead just return true or false at random
   const validExperimentNames = ["buttonColor"];
