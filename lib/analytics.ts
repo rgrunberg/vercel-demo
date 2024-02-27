@@ -1,6 +1,6 @@
 export const log = (
   eventName: string,
-  eventProperties: { [index: string]: string | number }
+  eventProperties: { [index: string]: string | number | boolean }
 ) => {
   // If this were a real app, we'd send this data to an analytics service
   const obj = { eventName, ...eventProperties };
