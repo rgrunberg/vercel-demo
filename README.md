@@ -2,13 +2,20 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, install packages and build the app:
+
+```bash
+npm install
+npm run build
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
 ```
 
-You may need to first run `npm install`, and/or make sure you're using node version >= 18.
+Make sure you're using node version >= 18.
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
