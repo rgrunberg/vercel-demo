@@ -1,3 +1,5 @@
+import { getVariant } from "../lib/helpers";
+
 export const evaluate = (flagName: string, id: string) => {
   // If this were a real app, we'd fetch this data from a remote service
   // Instead just return true or false at random
@@ -6,5 +8,5 @@ export const evaluate = (flagName: string, id: string) => {
     throw new Error("Flag name not found");
   }
   const array = ["#e5e7eb", "#bfdbfe"];
-  return array[Math.floor(Math.random() * array.length)];
+  return getVariant(array, id);
 };
